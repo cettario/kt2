@@ -1,0 +1,133 @@
+ body {
+            margin: 0;
+            background: #2d0066;
+            font-family: Segoe UI, sans-serif;
+            color: white;
+            margin-top: 30px;
+        }
+
+
+        h1 {
+            margin: 30px 60px;
+            font-weight: normal;
+            display: inline;
+        }
+
+      
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(4, 220px);
+            gap: 15px;
+            margin: 30px 60px 30px 100px;
+            
+        }
+
+     
+        .block {
+            display: grid;
+            gap: 15px;
+        }
+
+       
+        .row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+  
+        .tile {
+            height: 130px;
+            width: 100%;
+            position: relative;
+            padding: 15px;
+            box-sizing: border-box;
+            border-radius: 4px;
+        }
+
+   
+        .small {
+            height: 130px;
+        }
+
+    
+        .tile i {
+            font-size: 50px;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .user{
+            text-align: end;
+            margin-left: 1090px;
+            font-size: 20px;
+            display: inline;
+            margin-top: 10px;
+            
+        }
+        .ikon{
+            margin-left: -60px;
+            margin-bottom: -15px;
+            background-color: slategrey;
+        }
+      
+
+       
+        .label {
+            position: absolute;
+            bottom: 10px;
+            left: 13px;
+            font-size: 16px;
+        }
+
+        .block4 {
+            margin-right: -60px;
+            margin-left: 60px;
+        }
+
+       
+        .c1 {
+            background: #008a8a;
+        }
+
+        .c2 {
+            background: #5c2d91;
+        }
+
+        .c3 {
+            background: #1ba1e2;
+        }
+
+        .c4 {
+            background: #00a300;
+        }
+
+        .c5 {
+            background: #e671b8;
+        }
+
+        .c6 {
+            background: #2d89ef;
+        }
+
+        .c7 {
+            background: #9f00a7;
+        }
+
+        .c8 {
+            background: #00aba9;
+        }
+
+        .c9 {
+            background: #d80073;
+        }
+
+        .c10 {
+            background: #f09609;
+        }
+
+        .c11 {
+            background: #e51400;
+        }
